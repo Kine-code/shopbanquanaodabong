@@ -9,7 +9,6 @@
                 <th>Active</th>
                 <th>Update</th>
                 <th style="width: 100px">&nbsp;</th>
-
             </tr>
         </thead>
         <tbody>

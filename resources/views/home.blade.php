@@ -88,9 +88,9 @@
                 </div>
             </div>
 
-            {{-- <div id="loadProduct">
+            <div id="loadProduct">
                 @include('products.list')
-            </div> --}}
+            </div>
 
 
             <!-- Load more -->

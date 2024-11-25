@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\UploadController;
 use App\Http\Controllers\Admin\SliderController;
+use App\Http\Controllers\Admin\MainAdminController;
 use App\Http\Services\UploadServices;
 use App\Models\Menu;
 
@@ -18,8 +19,8 @@ Route::post('admin/users/login/store', [LoginController::class, 'store']);
 Route::middleware(['auth'])->group(function () {
 
     Route::prefix('admin')->group(function () {
-        Route::get('/', [MainController::class, 'index'])->name('admin');
-        Route::get('main', [MainController::class, 'index']);
+        Route::get('/', [MainAdminController::class, 'index'])->name('admin');
+        Route::get('main', [MainAdminController::class, 'index']);
 
         #menus
         Route::prefix('menus')->group(function () {

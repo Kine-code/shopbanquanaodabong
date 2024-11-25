@@ -44,7 +44,7 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="index.html"><img src="/template/images/icons/logo-01.png" alt="IMG-LOGO"></a>
+            <a href="index.html"><img src="/template/images/icons/logoxp.png" alt="IMG-LOGO"></a>
         </div>
 
         <!-- Icon header -->

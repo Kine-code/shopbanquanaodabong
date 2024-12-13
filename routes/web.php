@@ -30,11 +30,10 @@ Route::middleware(['auth'])->group(function () {
             Route::get('edit/{menu}', [MenuController::class, 'show']);
             Route::post('edit/{menu}', [MenuController::class, 'update']);
             Route::DELETE('destroy', [MenuController::class, 'destroy']);
-            
         });
 
-         #Product
-         Route::prefix('products')->group(function () {
+        #Product
+        Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
             Route::post('add', [ProductController::class, 'store']);
             Route::get('list', [ProductController::class, 'index']);
@@ -43,8 +42,8 @@ Route::middleware(['auth'])->group(function () {
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
         });
 
-         #Slider
-         Route::prefix('sliders')->group(function () {
+        #Slider
+        Route::prefix('sliders')->group(function () {
             Route::get('add', [SliderController::class, 'create']);
             Route::post('add', [SliderController::class, 'store']);
             Route::get('list', [SliderController::class, 'index']);
@@ -55,6 +54,10 @@ Route::middleware(['auth'])->group(function () {
 
         #Upload
         Route::post('upload/services', [UploadController::class, 'store']);
+
+        #Cart
+        Route::get('customers', [\App\Http\Controllers\Admin\CartController::class, 'index']);
+        Route::get('customers/view/{customer}', [\App\Http\Controllers\Admin\CartController::class, 'show']);
     });
 });
 

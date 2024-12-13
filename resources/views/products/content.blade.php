@@ -336,7 +336,7 @@
         <div class="container">
             <div class="p-b-45">
                 <h3 class="ltext-106 cl5 txt-center">
-                    Related Products
+                    Các sản phẩm liên quan
                 </h3>
             </div>
 

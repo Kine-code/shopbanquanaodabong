@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\DashboardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\Users\LoginController;
 use App\Http\Controllers\MainController;
@@ -41,6 +42,7 @@ Route::middleware(['auth'])->group(function () {
             Route::post('edit/{product}', [ProductController::class, 'update']);
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
         });
+        Route::get('dashboard', [DashboardController::class, 'index']);
 
         #Slider
         Route::prefix('sliders')->group(function () {
@@ -58,6 +60,7 @@ Route::middleware(['auth'])->group(function () {
         #Cart
         Route::get('customers', [\App\Http\Controllers\Admin\CartController::class, 'index']);
         Route::get('customers/view/{customer}', [\App\Http\Controllers\Admin\CartController::class, 'show']);
+        
     });
 });
 

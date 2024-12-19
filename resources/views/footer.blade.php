@@ -5,31 +5,31 @@
         <div class="row">
             <div class="col-sm-6 col-lg-3 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
-                    Categories
+                   Trang
                 </h4>
 
                 <ul>
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Women
+                            Trang chủ
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Men
+                            Sản phẩm
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Shoes
+                            Dịch vụ
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Watches
+                            Liên hệ
                         </a>
                     </li>
                 </ul>
@@ -73,7 +73,7 @@
                 </h4>
 
                 <p class="stext-107 cl7 size-201">
-                    Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                    Any questions? Let us know in store at xuan do, cu khoi, long bien, ha noi or call us on (+84) 0376679803
                 </p>
 
                 <div class="p-t-27">
@@ -114,29 +114,29 @@
         <div class="p-t-40">
             <div class="flex-c-m flex-w p-b-18">
                 <a href="#" class="m-all-1">
-                    <img src="images/icons/icon-pay-01.png" alt="ICON-PAY">
+                    <img src="/template/images/icons/icon-pay-01.png" alt="ICON-PAY">
                 </a>
 
                 <a href="#" class="m-all-1">
-                    <img src="images/icons/icon-pay-02.png" alt="ICON-PAY">
+                    <img src="/template/images/icons/icon-pay-02.png" alt="ICON-PAY">
                 </a>
 
                 <a href="#" class="m-all-1">
-                    <img src="images/icons/icon-pay-03.png" alt="ICON-PAY">
+                    <img src="/template/images/icons/icon-pay-03.png" alt="ICON-PAY">
                 </a>
 
                 <a href="#" class="m-all-1">
-                    <img src="images/icons/icon-pay-04.png" alt="ICON-PAY">
+                    <img src="/template/images/icons/icon-pay-04.png" alt="ICON-PAY">
                 </a>
 
                 <a href="#" class="m-all-1">
-                    <img src="images/icons/icon-pay-05.png" alt="ICON-PAY">
+                    <img src="/template/images/icons/icon-pay-05.png" alt="ICON-PAY">
                 </a>
             </div>
 
             <p class="stext-107 cl6 txt-center">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Công Kiên</a> &amp; distributed by <a href="#" target="_blank">ThemeKienCong</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
             </p>

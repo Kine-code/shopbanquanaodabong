@@ -124,6 +124,23 @@
 
                     </ul>
                 </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-chart-bar"></i>
+                        <p> Thống kê
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="/admin/dashboard" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Báo cáo thống kê</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

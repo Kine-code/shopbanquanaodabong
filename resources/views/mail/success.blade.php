@@ -1,1 +1,1 @@
-<h1>Có một đơn đặt hàng </h1>
+<h1>Chúc mừng bạn đã đặt hàng thành công</h1>

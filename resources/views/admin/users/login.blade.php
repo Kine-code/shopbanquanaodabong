@@ -55,7 +55,7 @@
                     <a href="#" class="btn btn-block btn-primary">
                         <i class="fab fa-facebook mr-2"></i> Facebook
                     </a>
-                    <a href="#" class="btn btn-block btn-danger">
+                    <a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser&ec=asw-gmail-globalnav-signin&ddm=1" class="btn btn-block btn-danger">
                         <i class="fab fa-google-plus mr-2"></i> Google+
                     </a>
                 </div>
